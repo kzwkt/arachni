@@ -1,0 +1,20 @@
+Source: arachni
+Section: non-free/net
+Priority: extra
+Maintainer: Mati Aharoni <muts@kali.org>
+Build-Depends: debhelper (>= 9), ruby-dev, bundler, libsqlite3-dev, libxml2-dev, libxslt1-dev, libcurl4-openssl-dev, libsqlite3-dev, libyaml-dev, zlib1g-dev, bundler
+Standards-Version: 3.9.3
+Homepage: http://arachni-scanner.com/
+Vcs-Git: git://git.kali.org/packages/arachni.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/arachni.git;a=summary
+
+Package: arachni
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ruby | ruby-interpreter,
+         bundler,
+Description: Web Application Security Scanner Framework
+ Arachni is a feature-full, modular, high-performance Ruby framework aimed
+ towards helping penetration testers and administrators evaluate the security
+ of web applications.

@@ -1,0 +1,12 @@
+debian/helper-script/* usr/bin/
+bin/ usr/share/arachni/
+components/ usr/share/arachni/
+config/ usr/share/arachni/
+lib/ usr/share/arachni/
+logs/ usr/share/arachni/
+profiles/ usr/share/arachni/
+snapshots/ usr/share/arachni/
+spec/ usr/share/arachni/
+ui/ usr/share/arachni/
+vendor/ usr/share/arachni/
+.bundle Gemfile* *.gemspec Rakefile usr/share/arachni/
